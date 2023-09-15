@@ -1,11 +1,18 @@
-Ferretería
-----------
-Número
-Artículo
-Cantidad
-Descripción
-----------
-Agregar
-Modificar
-Mostrar
-Eliminar
+Articulo
+-----------------------------
++ int codigo
++ string descripcion
++ int cantidad
++ int precio
+-----------------------------
++ setCodigo(int cod): void
++ setDescripcion(string des): void
++ setCantidad(int cant): void
++ setPrecio(int prec): void
++ getCodigof): int
++ getDescripcion) string
++ getCantidad): int
++ getPrecio): int
++ valorTotal(): int
++ retirarStock(int n): void
++ añadirStock(int n): void
