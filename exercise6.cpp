@@ -64,6 +64,13 @@ int main() {
     cout << "El Perímetro es: " << miRectangulo.calcularPerimetro() << std::endl;
     cout << "El Área es: " << miRectangulo.calcularArea() << std::endl;
 
+    cout<<"------------------------------"<<endl;
+    cout<<"Se intenta introducir un valor mayor a 20 en el ancho"<<endl;
+    miRectangulo.setAncho(21.0);
+    cout << "La altura es: " << longitud << std::endl;
+    cout << "El ancho es: " << ancho << std::endl;
+    cout << "El Perímetro es: " << miRectangulo.calcularPerimetro() << std::endl;
+    cout << "El Área es: " << miRectangulo.calcularArea() << std::endl;
     return 0;
 
 }
